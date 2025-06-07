@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,6 +7,8 @@ export default function Home() {
     <>
 
    <div className="flex flex-col items-center justify-center min-h-screen text-center p-4">
+
+    <UserButton/>
       <img className="w-40 h-auto mb-6" src="/Ahly.png" alt="Ahly Logo" />
 
       <h2 className="font-bebas text-[36px] mb-4">
